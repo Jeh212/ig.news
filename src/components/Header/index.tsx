@@ -1,3 +1,5 @@
+import React from 'react';
+import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 
 export function Header() {
@@ -10,6 +12,7 @@ export function Header() {
 
 					<a>Post</a>
 				</nav>
+				<SignInButton/>
 			</div>
 		</header>
 	);
